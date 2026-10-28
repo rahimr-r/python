@@ -80,10 +80,10 @@ plt.title("Monthly Sales (Jan to Jun)")
 plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.legend()
-plt.grid(True, linestyle="--", alpha=0.5)
+
 
 plt.tight_layout()
 plt.savefig(output_folder / "4_line_chart.png", dpi=300)
 plt.close()
 
-print("All 4 charts saved successfully in the charts folder!")
+print("All charts are saved to the charts folder...!")
